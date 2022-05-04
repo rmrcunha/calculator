@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "outDir": "assets/dist/main",
+        "target": "ES6",
+    },
+    "include": ["assets/app/**/*"]
+}

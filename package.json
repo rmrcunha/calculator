@@ -1,0 +1,23 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Functional calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmrcunha/calculator.git"
+  },
+  "author": "rmrcunha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmrcunha/calculator/issues"
+  },
+  "homepage": "https://github.com/rmrcunha/calculator#readme",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  }
+}
