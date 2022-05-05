@@ -48,6 +48,12 @@ export class Calculator{
                 break
             case '÷':
                 computation = previous / current;
+                break 
+            case 'x^':
+                computation = previous ** current;
+                break
+            case '√':
+                computation = Math.pow(previous, 1/current);
                 break
             default:
                 return;
@@ -62,6 +68,7 @@ export class Calculator{
         return floatNumber.toLocaleString('en')
     }
 
+    
     updateDisplay(){
         this.currentOperandTextElement.innerText =
         this.getDisplayNumber(this.currentOperand)
@@ -72,4 +79,7 @@ export class Calculator{
             this.previousOperandTextElement.innerText = '';
         }
     }
+
+
+
 } 

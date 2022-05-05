@@ -46,6 +46,12 @@ export class Calculator {
             case '÷':
                 computation = previous / current;
                 break;
+            case 'x^':
+                computation = Math.pow(previous, current);
+                break;
+            case '√':
+                computation = Math.pow(previous, 1 / current);
+                break;
             default:
                 return;
         }
